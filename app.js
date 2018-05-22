@@ -1,6 +1,6 @@
 function Nombrar() {
-    Ingresar = document.getElementByName("Nombre").value;
-    name = Nombre;
+    Ingresar = document.getElementById("Nombre").value;
+    
 }
 window.onload = function () {
     var btn = document.getElementById("shower");
